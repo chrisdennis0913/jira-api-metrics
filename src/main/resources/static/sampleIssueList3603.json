@@ -1,0 +1,1293 @@
+// 20171117161047
+// https://sharedservices.dhs.gov/jira/rest/agile/1.0/sprint/3603/issue?fields=id,key,status,resolution,summary,description,customfield_10002
+
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 50,
+  "total": 47,
+  "issues": [
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "308732",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/308732",
+      "key": "SM-837",
+      "fields": {
+        "summary": "Save Case Resolution Deployed to Production",
+        "description": "SVS requested that we have production URL for SAVE Case Resolution",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/3",
+          "description": "This issue is being actively worked on at the moment by the assignee.",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/statuses/inprogress.png",
+          "name": "In Progress",
+          "id": "3",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/4",
+            "id": 4,
+            "key": "indeterminate",
+            "colorName": "yellow",
+            "name": "In Progress"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "328509",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/328509",
+      "key": "SM-871",
+      "fields": {
+        "summary": "E2E tests in save-ui - nightmare",
+        "description": "Build a foundation of e2e nightmare tests to call the webservices in order to perform the entire life cycle of a case from save-ui. \r\n Another task is being created in order to finalize e2e tests in the pipeline.\r\nhttps://sharedservices.dhs.gov/jira/browse/SM-980",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "336809",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/336809",
+      "key": "SM-905",
+      "fields": {
+        "summary": "Turn off ESB Checks in Verification Tests",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "268416",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/268416",
+      "key": "SM-577",
+      "fields": {
+        "summary": "Make Queuing Configurable",
+        "description": "As a SAVE Agency I need the ability to have queuing configurable so that I can comply with my SOP",
+        "resolution": null,
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "323722",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/323722",
+      "key": "SM-868",
+      "fields": {
+        "summary": "Section Dividers for GUI",
+        "description": "Styling update to reflect designs",
+        "resolution": null,
+        "customfield_10002": 2.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "328448",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/328448",
+      "key": "SM-870",
+      "fields": {
+        "summary": "Resubmit Response Screen",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": 5.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "289099",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/289099",
+      "key": "SM-730",
+      "fields": {
+        "summary": "User Attaches Document Via Upload File Button on Additional Information Section",
+        "description": "As a SAVE Agency User I need the ability to attach a document so that SVO has the necessary information to review my case",
+        "resolution": null,
+        "customfield_10002": 5.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "332634",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/332634",
+      "key": "SM-890",
+      "fields": {
+        "summary": "Drag and drop files",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "332637",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/332637",
+      "key": "SM-891",
+      "fields": {
+        "summary": "Optional Required Text",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "332639",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/332639",
+      "key": "SM-892",
+      "fields": {
+        "summary": "Validation on File Type and Size",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "332643",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/332643",
+      "key": "SM-893",
+      "fields": {
+        "summary": "Store javaScript File object in store.",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "335417",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/335417",
+      "key": "SM-899",
+      "fields": {
+        "summary": "Trash Button functionality",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "309496",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/309496",
+      "key": "SM-850",
+      "fields": {
+        "summary": "Delete EADS/AoS info when SVS sends resolve request without them",
+        "description": "we need to delete (and update) EADS/AoS information when SVS sends resolutions (CTP and final) \r\n\r\n \r\n\r\nscenario of reported bug:\r\n\r\n1.SVS adds EADS and AoS data and puts a case into CTP (continue to process)\r\n\r\n2.SVS deletes EADS and/or AoS data and resolves with final resolution\r\n\r\n3.VIS case details reflects that there is no longer EADS/AoS data\r\n\r\n4. ver-case-data case details reflects the EADS/AoS data still but shouldn't\r\n\r\n \r\n\r\nthe data should also be properly updated when changed in a new request from SVS, as well as when one record is deleted but another remains in either EADS/AoS that remaining record should still exist in case details and the other should be gone\r\n\r\n ",
+        "resolution": null,
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "320668",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/320668",
+      "key": "SM-857",
+      "fields": {
+        "summary": "Update /case details",
+        "description": "This was a request from SVS Mod to update an endpoint they use for reporting",
+        "resolution": null,
+        "customfield_10002": 2.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331050",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331050",
+      "key": "SM-875",
+      "fields": {
+        "summary": "Convert to Post",
+        "description": "Make the actual conversion to POST format from GET",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331051",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331051",
+      "key": "SM-876",
+      "fields": {
+        "summary": "Fix E2E and Unit Tests",
+        "description": "After changing the format of this there are surely tests that will break",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331053",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331053",
+      "key": "SM-877",
+      "fields": {
+        "summary": "Deserialize the body",
+        "description": "After converting to POST, we must convert the body into the List of objects (in this case, strings) that we need.",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "307643",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/307643",
+      "key": "SM-827",
+      "fields": {
+        "summary": "User Closes Case from Resolution Screen",
+        "description": "As a SAVE Agency User I need to be able to close a case so that I can be compliant with SOPs",
+        "resolution": null,
+        "customfield_10002": 2.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331054",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331054",
+      "key": "SM-878",
+      "fields": {
+        "summary": "Handle Click",
+        "description": "Handle the event of clicking the button",
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331056",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331056",
+      "key": "SM-879",
+      "fields": {
+        "summary": "Call API",
+        "description": "Make the fetch call to close the case",
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331057",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331057",
+      "key": "SM-880",
+      "fields": {
+        "summary": "Redirect to home",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "307646",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/307646",
+      "key": "SM-829",
+      "fields": {
+        "summary": "User Clicks Close and Start New Case Button from Resolution Screen",
+        "description": "As a SAVE Agency User, I need to click the \"Close and Start New Case\" button so that I can continue processing cases ",
+        "resolution": null,
+        "customfield_10002": 1.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331059",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331059",
+      "key": "SM-881",
+      "fields": {
+        "summary": "Handle Click",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331060",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331060",
+      "key": "SM-882",
+      "fields": {
+        "summary": "Call API",
+        "description": "make the fetch call to close the case",
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331062",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331062",
+      "key": "SM-883",
+      "fields": {
+        "summary": "Reset to Initiate Case",
+        "description": "Reset the components and the store to the initial verification state.",
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "308829",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/308829",
+      "key": "SM-841",
+      "fields": {
+        "summary": "SAVE Response Screen with Continue to Process",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": 5.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331064",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331064",
+      "key": "SM-884",
+      "fields": {
+        "summary": "Style the exit button",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331067",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331067",
+      "key": "SM-885",
+      "fields": {
+        "summary": "Check if continue to process",
+        "description": "We need to see how to get to the continue to process screen. Do we need to check some flag? Do we need to make a call?",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331068",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331068",
+      "key": "SM-886",
+      "fields": {
+        "summary": "508 Compliance",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331072",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331072",
+      "key": "SM-887",
+      "fields": {
+        "summary": "Design or use the alert for Continue to Process",
+        "description": "Create and render the alert at the top of the response screen that tells the user this case is in Continue to Process",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331073",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331073",
+      "key": "SM-888",
+      "fields": {
+        "summary": "Use and Display Agency Submitted Details",
+        "description": "If this is on a new component/container, we need to be sure to include the render of the already-created \"Agency Submitted Details\"",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "308733",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/308733",
+      "key": "SM-838",
+      "fields": {
+        "summary": "New Relic Monitoring Alerts",
+        "description": "Alex said that switching to docker base image caused an issue",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "330628",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/330628",
+      "key": "SM-873",
+      "fields": {
+        "summary": "deferredActionStatusExpirationDate Throwing an Error",
+        "description": "This json\r\n\r\n\\{\r\n\"caseNumber\": \"2017298132911ZK\",\r\n\"ancillaryData\": \\{\r\n\"s2\": \\{\r\n\"resolutionCode\": \"01703c04\",\r\n\"additionalFields\": \\{\r\n\"commentsToAgency\": \"string\",\r\n\"internalComments\": \"string\",\r\n\"expirationDate\": \"01/02/2018\",\r\n\"deferredActionExpirationNA\": true,\r\n\"applicationPending\": \\{\r\n\"uscisBenefit\": \"string\"\r\n}\r\n}\r\n}\r\n}\r\n}\r\n\r\n\r\n\r\n\r\nIs throwing the following error:\r\n\r\n\r\n\\{\r\n  \"code\": 400,\r\n  \"message\": \"Invalid Request\",\r\n  \"errors\": [\r\n    \\{\r\n      \"message\": \"Either Status Expiration Date or Not Applicable Indicator must be present in additional fields\"\r\n    }\r\n  ]\r\n}\r\n\r\n\r\nThis should not throw an error. deferredActionStatusExpirationDate and deferredActionExpirationNA are not being recognized when provided.",
+        "resolution": null,
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "302386",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/302386",
+      "key": "SM-798",
+      "fields": {
+        "summary": "User Opens Resolved Case (Don't Attach Document)",
+        "description": "As a SAVE Agency User I need to see a DHS Resolution so that I can properly allocate benefits",
+        "resolution": null,
+        "customfield_10002": 13.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "308817",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/308817",
+      "key": "SM-840",
+      "fields": {
+        "summary": "User Institutes Additional Verification from Additional Information Screen (with SVS Response)",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": 8.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "322267",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/322267",
+      "key": "SM-859",
+      "fields": {
+        "summary": "Exit and Go Home from Continue to Process Screen",
+        "description": "As a SAVE Agency User I need to be able to see the continue to process status of a case and return to my home screen so that I can continue to process cases.",
+        "resolution": null,
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "289104",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/289104",
+      "key": "SM-731",
+      "fields": {
+        "summary": "User Clicks Institute Additional Verification with Document",
+        "description": null,
+        "resolution": null,
+        "customfield_10002": 21.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "320623",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/320623",
+      "key": "SM-856",
+      "fields": {
+        "summary": "No Eads Validation in SU",
+        "description": "It is possible to put in invalid EADs data in SU resolutions that would not be permitted in the S2 stage. This should not be the case.\r\n\r\n ",
+        "resolution": null,
+        "customfield_10002": 2.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "306282",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/306282",
+      "key": "SM-817",
+      "fields": {
+        "summary": "Create Information Radiator For VariQ changes that impact SAVE MOD services",
+        "description": "It is important to us that we have both adequate warning about and a way to rule out breaking changes that come in from external collaborators that we depend on. VIS is one of these as long as we are sharing a database and they control it.\r\n\r\nWe seek to avoid a scenario in which we are dependent on another team for evaluating how our software functions or unable to foresee how their changes break our software. \r\n\r\n \r\n\r\nThis task is to create some method by which we can know about VIS changes before they are deployed to environments that affect our development. The most direct approach is to run our own E2E tests against the test environment as part of the pipeline that pushes new code to it so we can see if changes to test are going to break our code. ",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "328576",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/328576",
+      "key": "SM-872",
+      "fields": {
+        "summary": "Cuban Haitian and Fraud Indicators Not Sent to Case Processing Queue",
+        "description": "VIS and SVS report that cases with these indicators are not being assigned appropriately because the indicators are not being sent to the case processing queue and the only work left to be done is to test it. We need the Active MQ to be turned on to test this story.",
+        "resolution": null,
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "289368",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/289368",
+      "key": "SM-733",
+      "fields": {
+        "summary": "E2E tests in separate pipeline",
+        "description": "It was discussed that setting up all of the microservices and ensuring your env. variable are correct make running E2E tests before a merge difficult. We want to create an easy way to quickly run your changes against unstable versions of all the necessary dependencies.",
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "333016",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/333016",
+      "key": "SM-897",
+      "fields": {
+        "summary": "Diagnose Confirm Photo Unexpected Behavior",
+        "description": "Chris basically solved all of SSA's problems. IN A DAY.",
+        "resolution": null,
+        "customfield_10002": 1.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "335984",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/335984",
+      "key": "SM-902",
+      "fields": {
+        "summary": "Create way to Reset in middle of SAVE UI",
+        "description": null,
+        "resolution": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/resolution/7",
+          "id": "7",
+          "description": "Work has been completed on this issue.",
+          "name": "Done"
+        },
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "331262",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/331262",
+      "key": "SM-889",
+      "fields": {
+        "summary": "Bubble up proper errors from Ver-case-data through Save-case-resolution",
+        "description": "We shouldn't see weird errors like \"standalone ws error\" or \"wsresponse error\" if the web service call runs into a validation error message. That message should be persisted",
+        "resolution": null,
+        "customfield_10002": null,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "335708",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/335708",
+      "key": "SM-901",
+      "fields": {
+        "summary": "No Status Resolution Codes Not Recognized",
+        "description": "When resolving cases with the No Status resolution codes, SVS is being thrown an error. Vic determined that we were using incorrect keys",
+        "resolution": null,
+        "customfield_10002": 1.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "333077",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/333077",
+      "key": "SM-898",
+      "fields": {
+        "summary": "SVS Case Resolution - Parolee Expires - Not Authorized",
+        "description": "The resolution of Parolee Expires - Not Authorized should only require paroleeExpirationDate but is returning the error message \r\n\r\n`\\{\"code\":400,\"message\":\"Invalid Request\",\"errors\":[\\{\"message\":\"expirationDate is required.\"}]}`\r\n\r\n \r\n\r\nexpirationDate should only be required for minor code 03c - \"Temporary Emp Auth\"",
+        "resolution": null,
+        "customfield_10002": 1.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    },
+    {
+      "expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+      "id": "322309",
+      "self": "https://sharedservices.dhs.gov/jira/rest/agile/1.0/issue/322309",
+      "key": "SM-865",
+      "fields": {
+        "summary": "GUI to GUI Backwards Compatible GetCaseDetails",
+        "description": "As a SAVE agency user that is transitioning, I need to be able to create a case in V.36 Legacy GUI and then work the rest of the case in the SAVE Mod GUI so that I can entirely process cases\r\n\r\nThis is only checking Agency Access Method",
+        "resolution": null,
+        "customfield_10002": 3.0,
+        "status": {
+          "self": "https://sharedservices.dhs.gov/jira/rest/api/2/status/10018",
+          "description": "",
+          "iconUrl": "https://sharedservices.dhs.gov/jira/images/icons/subtask.gif",
+          "name": "Done",
+          "id": "10018",
+          "statusCategory": {
+            "self": "https://sharedservices.dhs.gov/jira/rest/api/2/statuscategory/3",
+            "id": 3,
+            "key": "done",
+            "colorName": "green",
+            "name": "Done"
+          }
+        }
+      }
+    }
+  ]
+}

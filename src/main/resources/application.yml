@@ -1,0 +1,20 @@
+info.build.version: 1.0-SNAPSHOT
+
+server.port: 4000
+security.basic.enabled: false
+local.server.port: 4000
+endpoints.health.enabled: true
+
+management.security.enabled: false
+
+cxf:
+  path: /jira-metrics-api
+  servlet.init:
+    service-list-path: /info
+  jaxrs:
+    component-scan: true
+    classes-scan-packages: org.apache.cxf.jaxrs.swagger#,org.apache.cxf.metrics
+
+spring:
+  profiles.active: application
+

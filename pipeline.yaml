@@ -1,0 +1,33 @@
+---
+project:
+  prefix: VIS
+  name: new-project-here
+modules:
+  # Use Jenkins-appropriate state passing
+  # Demonstrates passing additional config to modules
+  - name: state/jenkins
+    test_value: foo
+  # NOTE: a state-keeping module is necessary for pipeline to
+  # work. If state/jenkins is not appropriate, state/null provides
+  # an alternative with in-memory state maintenance.
+  # - state/null
+  # Parse *.rake rakefiles for inclusion
+  - rakefiles
+  # Create Docker container related tasks
+  - docker
+  # Create SparkleFormation template related tasks
+  - templates/sparkle_formation
+  # Create CloudFormation template related tasks
+  - templates/cloud_formation
+  # Create gem-related tasks
+  - rubygem
+  # Create nexus related tasks
+  - rubygem/nexus
+  # Create Chef-related tasks
+  - chef
+  # Create Packer-related tasks
+  - packer
+  # Create packerconfig tasks
+  - packer/packerconfig
+  # Create EC2-related tasks
+  - aws/ec2
